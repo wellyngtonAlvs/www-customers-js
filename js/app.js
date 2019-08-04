@@ -1,11 +1,11 @@
 document.getElementById('formulario').addEventListener('submit', cadastraCliente)
 
 function cadastraCliente(e) {
-    var nomeFantasia = document.getElementById('nomeFantasia').value
-    var contatoCliente = document.getElementById('contatoCliente').value
-    var data = new Date()
+    var nomeFantasia = document.getElementById('nomeFantasia').value.replace("\n","<br>")
+    var contatoCliente = document.getElementById('contatoCliente').value.replace("\n","<br>")
+    var hora = new Date()
 
-    if(!nomeFantasia && !contatoCliente){
+    if(!nomeFantasia || !contatoCliente){
         alert("Favor, preencher campos.. Nome fantasia e Contato")
         return
     }
@@ -13,9 +13,9 @@ function cadastraCliente(e) {
     cliente = {
         nome: nomeFantasia,
         contato: contatoCliente,
-        dia: data.getDay(),
-        mes: data.getMonth(),
-        ano: data.getFullYear()
+        hors: hora.getHours().toString().padStart(2, '0'),
+        min: hora.getMinutes().toString().padStart(2, '0'),
+        seg: hora.getSeconds().toString().padStart(2, '0')
     }
     console.log(cliente)
 
@@ -39,7 +39,7 @@ function deletaCli(contato) {
     const retorno = window.confirm('Deseja mesmo excluír ?')
 
     if(!retorno){
-        return false;
+        return
     }
 
     for (var i = 0; i < clientes.length; i++) {
@@ -63,13 +63,13 @@ function mostrarCliente1() {
 
         var nome = clientes[i].nome
         var contato = clientes[i].contato
-        var dia = clientes[i].dia
-        var mes = clientes[i].mes
-        var ano = clientes[i].ano
+        var hors = clientes[i].hors
+        var min = clientes[i].min
+        var seg = clientes[i].seg
 
         clientesResultado.innerHTML += '<tr><td>' + nome + '</td>' +
             '<td>' + contato + '</td>' +
-            '<td>' + dia + '/' + mes + '/' + ano + '</td>' +
+            '<td>' + hors + ':' + min + ':' + seg + '</td>' +
             '<td><button class="btn btn-danger" onclick="deletaCli(\'' + contato + '\')">Excluir</button></td>' +
             '</tr>'
 
