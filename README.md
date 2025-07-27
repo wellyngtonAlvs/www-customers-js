@@ -1,6 +1,6 @@
 # Sistema de Clientes
 
-Um sistema simples de gerenciamento de clientes desenvolvido em HTML, CSS e JavaScript vanilla.
+Um sistema simples de gerenciamento de clientes desenvolvido em HTML, CSS e JavaScript.
 
 ## 📋 Descrição
 
@@ -80,9 +80,7 @@ www-customers-js/
 ## 🔧 Melhorias Implementadas
 
 ### Versão Atual
-- ✅ Correção de tags HTML (`<dir>` → `<div>`)
 - ✅ Melhoria na validação de formulário
-- ✅ Código JavaScript mais limpo
 - ✅ Melhor estrutura de dados
 - ✅ Interface mais moderna
 
@@ -148,7 +146,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ## 👨‍💻 Autor
 
-Desenvolvido como projeto de estudo em JavaScript vanilla.
+Desenvolvido como projeto de estudo em JavaScript.
 
 ## 📞 Suporte
 
@@ -159,4 +157,4 @@ Para dúvidas ou sugestões:
 ---
 
 **Versão**: 1.0.0  
-**Última atualização**: Dezembro 2024 
+**Última atualização**: Julho 2025 
