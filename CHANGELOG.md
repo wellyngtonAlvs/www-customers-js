@@ -21,7 +21,6 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ### 🔧 Melhorado
 - **Código JavaScript**: Migração para ES6+ com arrow functions e const/let
-- **Estrutura HTML**: Correção de tags `<dir>` para `<div>`
 - **Estilos CSS**: Design moderno com glassmorphism e gradientes
 - **Segurança**: Prevenção de XSS com escape de HTML
 - **Performance**: Otimização de manipulação do DOM
@@ -30,7 +29,6 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - **Organização do código**: Funções modulares e bem documentadas
 
 ### 🐛 Corrigido
-- **Tags HTML incorretas**: Substituição de `<dir>` por `<div>`
 - **Validação de formulário**: Campos obrigatórios agora funcionam corretamente
 - **Persistência de dados**: Melhor gerenciamento do localStorage
 - **Responsividade**: Layout quebrado em dispositivos móveis
@@ -133,4 +131,4 @@ Usamos o padrão [Conventional Commits](https://www.conventionalcommits.org/):
 ---
 
 **Mantenedores**: Sistema de Clientes Team  
-**Última atualização**: Dezembro 2024 
+**Última atualização**: Julho 2025 

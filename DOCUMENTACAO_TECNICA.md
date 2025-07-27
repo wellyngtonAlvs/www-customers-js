@@ -29,8 +29,7 @@ www-customers-js/
 │   ├── bootstrap.css       # Framework Bootstrap
 │   └── style.css           # Estilos customizados
 ├── js/
-│   ├── app.js              # Lógica principal
-│   └── jquery.js           # Biblioteca jQuery (não utilizada)
+│   └── app.js              # Lógica principal
 └── img/
     └── g.jpg               # Imagem de fundo
 ```
@@ -284,5 +283,5 @@ console.log(JSON.parse(localStorage.getItem('clientes')));
 ---
 
 **Versão**: 2.0.0  
-**Última atualização**: Dezembro 2024  
+**Última atualização**: Julho 2025  
 **Autor**: Sistema de Clientes Team 

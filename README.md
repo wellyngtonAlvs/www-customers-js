@@ -46,8 +46,7 @@ www-customers-js/
 ├── img/
 │   └── g.jpg              # Imagem de fundo
 ├── js/
-│   ├── app.js             # Lógica principal da aplicação
-│   └── jquery.js          # Biblioteca jQuery (não utilizada)
+│   └── app.js             # Lógica principal da aplicação
 └── index.html             # Página principal
 ```
 
@@ -156,5 +155,5 @@ Para dúvidas ou sugestões:
 
 ---
 
-**Versão**: 1.0.0  
+**Versão**: 2.0.0  
 **Última atualização**: Julho 2025 
